@@ -2,6 +2,7 @@
 
 namespace App\Console;
 
+use App\RSSFeed;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
@@ -26,12 +27,28 @@ class Kernel extends ConsoleKernel
     {
         // general arch news checking
         $schedule->call(function () {
-            // get the rssfeed model
-            // get items since last check
-            // if items > 0
-            // loop over its webhooks and send the new items
-            // if the response code is between 400 and 410 delete the webhook
-        })->hourly();
+            $rssFeed = RSSFeed::where('name', 'Arch News')->get()->first();
+            $items = $rssFeed->getItemsSince($rssFeed->lastItemTime);
+            // check if there are new items
+            if(count($items) > 0) {
+                // update the new last time
+                $newLastItemTime = $items->get(0)['time'];
+                $rssFeed->update([ 'lastItemTime' => $newLastItemTime]);
+                // loop over all new items and webhooks
+                $items->each(function ($item) use ($rssFeed) {
+                    $rssFeed->webhooks()->each(function ($webhook) use ($item, $rssFeed) {
+                        $statusCode = $webhook->send($item['title'], $item['link']);
+                        // if the webhook returns code 400 - delete it
+                        if ($statusCode > 400) {
+                            // delete from the pivot table
+                            $webhook->rssFeeds()->detach($rssFeed->id);
+                            // delete the object
+                            $webhook->delete();
+                        }
+                    });
+                });
+            }
+        })->everyMinute();
     }
 
     /**

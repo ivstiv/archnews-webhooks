@@ -2,11 +2,11 @@
 
 namespace App;
 
-use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Model;
-
 use SimplePie;
 use GuzzleHttp\RequestOptions;
+use Illuminate\Database\Eloquent\Model;
+
+
 
 class Webhook extends Model {
 
@@ -90,6 +90,6 @@ class Webhook extends Model {
 
     public function rssFeeds() {
         // laravel can't deduce RSSFeed name right so we need to to specify the pivot
-        return $this->belongsToMany('RSSFeed', 'rssfeed_webhook', 'webhook_id', 'rssfeed_id');
+        return $this->belongsToMany('App\RSSFeed', 'rssfeed_webhook', 'webhook_id', 'rssfeed_id');
     }
 }

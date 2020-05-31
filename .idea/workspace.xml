@@ -4,11 +4,11 @@
     <list default="true" id="da6f5255-da01-4a23-b3f1-e74dc8c69969" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WebhookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WebhookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/RSSFeed.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/RSSFeed.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Webhook.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Webhook.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +161,7 @@
       <updated>1590864791785</updated>
       <workItem from="1590864795325" duration="1151000" />
       <workItem from="1590927794189" duration="11073000" />
-      <workItem from="1590939575876" duration="10792000" />
+      <workItem from="1590939575876" duration="20230000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+use App\RSSFeed;
 use App\Webhook;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -48,6 +48,8 @@ class WebhookController extends Controller {
         }
 
         $webhook->save();
+        $rssFeed = RSSFeed::where('name', 'Arch News')->get()->first();
+        $webhook->rssFeeds()->attach([$rssFeed->id]);
         return json_encode(["status" => "success", "msg" => "The webhook was added successfully!"]);
     }
 
