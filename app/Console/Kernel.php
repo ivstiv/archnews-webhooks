@@ -30,6 +30,7 @@ class Kernel extends ConsoleKernel
             // get items since last check
             // if items > 0
             // loop over its webhooks and send the new items
+            // if the response code is between 400 and 410 delete the webhook
         })->hourly();
     }
 

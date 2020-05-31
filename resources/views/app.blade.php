@@ -6,6 +6,7 @@
         <title>Arch News Webhooks</title>
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="stylesheet" href="{{ asset('css/style.css')}}">
+        <script defer src="{{ asset('js/app.js') }}"></script>
     </head>
     <body>
         <div class="area" >
@@ -15,8 +16,9 @@
                 </div>
                 <div class="webhook-input">
                     <input type="text" name="webhook-input" id="webhook-input" placeholder="Webhook url...">
-                    <input type="button" value="Add webhook">
-                    <h3 class="error">Error: Invalid webhook!</h3>
+                    <input type="button" id="webhook-button" value="Add webhook">
+                    <a id="link-submit" href="{{ route('addWebhook') }}"></a>
+                    <h3 id="error-msg" class="error"></h3>
                 </div>
             </div>
             <div class="bottom-part">
