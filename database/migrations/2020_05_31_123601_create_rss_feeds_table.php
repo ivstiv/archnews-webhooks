@@ -17,7 +17,7 @@ class CreateRSSFeedsTable extends Migration
             $table->id();
             $table->string('name')->unique();
             $table->string('url')->unique();
-            $table->dateTime('lastBuildDate'); // this might have to change data type idk
+            $table->dateTime('lastItemTime'); // this might have to change data type idk
         });
     }
 

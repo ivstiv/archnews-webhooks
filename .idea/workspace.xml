@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da6f5255-da01-4a23-b3f1-e74dc8c69969" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/archnews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/archnews.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/RSSFeed.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/RSSFeed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Webhook.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Webhook.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_31_123601_create_rss_feeds_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_31_123601_create_rss_feeds_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +120,7 @@
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/simplepie/simplepie" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cdiIWXogO4fPFPsuNlCTIhDzo1" />
@@ -155,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590864791785</updated>
       <workItem from="1590864795325" duration="1151000" />
-      <workItem from="1590927794189" duration="5367000" />
+      <workItem from="1590927794189" duration="10968000" />
     </task>
     <servers />
   </component>

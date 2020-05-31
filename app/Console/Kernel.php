@@ -24,7 +24,13 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')->hourly();
+        // general arch news checking
+        $schedule->call(function () {
+            // get the rssfeed model
+            // get items since last check
+            // if items > 0
+            // loop over its webhooks and send the new items
+        })->hourly();
     }
 
     /**
