@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da6f5255-da01-4a23-b3f1-e74dc8c69969" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/RSSFeedSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/RSSFeedSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/discord.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/discord.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/slack.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slack.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +156,7 @@
       <workItem from="1590864795325" duration="1151000" />
       <workItem from="1590927794189" duration="11073000" />
       <workItem from="1590939575876" duration="20459000" />
-      <workItem from="1591007768763" duration="4662000" />
+      <workItem from="1591007768763" duration="4921000" />
     </task>
     <servers />
   </component>

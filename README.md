@@ -14,34 +14,37 @@ If you want to run this on your own here is what you will need:
 
 
 1.Clone the repository 
+
 `git clone https://github.com/Ivstiv/archnews-webhooks.git && cd archnews-webhooks`
 
 2.Install the dependencies 
+
 `composer install --optimize-autoloader --no-dev`
 
 3.Configure your .env file
+
 `cp .env.example .env`
 
 4.Edit the following entries (You need to have a database and user already!)
+
 ```
     APP_URL
-
     DB_HOST
-
     DB_DATABASE
-
     DB_USERNAME
-
     DB_PASSWORD
 ```
 
 5.Generate a key (run this only if you are installing it for first time)
+
 `php artisan key:generate --force`
 
 6.Migrate the database
+
 `php artisan migrate --seed`
 
 7.Set permissions
+
 ```
     chmod -R 755 storage/* bootstrap/cache/
     
@@ -56,12 +59,14 @@ If you want to run this on your own here is what you will need:
 ```
 
 8.Cache some of the files to load faster
+
 ```
 php artisan config:cache
 php artisan view:cache
 ```
 
 9.Crontab configuration (`sudo crontab -e`). Just subtitute <PROJECT_DIR> accordingly.
+
 `* * * * * php <PROJECT_DIR>/artisan schedule:run >> /dev/null 2>&1`
 
 # Contact and contribution
