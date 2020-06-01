@@ -12,7 +12,7 @@ class RSSFeedSeeder extends Seeder {
     public function run() {
         DB::table('rss_feeds')->insert([
             'name' => 'Arch News',
-            'url' => 'http://localhost/news.xml',
+            'url' => 'https://www.archlinux.org/feeds/news/',
             'lastItemTime' => '2020-01-01',
         ]);
 

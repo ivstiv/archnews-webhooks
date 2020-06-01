@@ -3,8 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="{{ asset('img/image/favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" href="{{ asset('img/image/favicon-32x32.png') }}" />
         <title>Arch News Webhooks</title>
+        <meta name="description" content="A service to keep you updated with the latest Arch Linux News on Discord and Slack.">
+        <meta name="keywords" content="arch, linux, news, rss, feed, discord, slack, webhook, updates, ivstiv">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="stylesheet" href="{{ asset('css/style.css')}}">
         <script defer src="{{ asset('js/app.js') }}"></script>
@@ -36,7 +38,7 @@
                         <li>If you want to stop receiving updates from this service, simply delete the webhook from your channel.</li>
                         <li><a href="{{ route('discord') }}" target="_blank">How to create a webhook in Discord?</a></li>
                         <li><a href="{{ route('slack') }}" target="_blank">How to create a webhook in Slack?</a></li>
-                        <li><a href="" target="_blank"><h3>Github</h3></a></li>
+                        <li><a href="https://github.com/Ivstiv/archnews-webhooks" target="_blank"><h3>Github</h3></a></li>
                         <li>For other feeds to be integrated you can find me in <a href="https://discord.gg/VMSDGVD" target="_blank">my discord server</a> :)</li>
                     </ul>
                 </div>

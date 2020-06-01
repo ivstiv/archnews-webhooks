@@ -3,7 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Arch News Webhooks</title>
+    <link rel="icon" type="image/png" href="{{ asset('img/image/favicon-32x32.png') }}" />
+    <title>Arch News Webhooks | How to add a Discord webhook?</title>
+    <meta name="description" content="A service to keep you updated with the latest Arch Linux News on Discord and Slack.">
+    <meta name="keywords" content="arch, linux, news, rss, feed, discord, slack, webhook, updates, ivstiv">
     <link rel="stylesheet" href="{{ asset('css/style.css')}}">
 </head>
 <body>
