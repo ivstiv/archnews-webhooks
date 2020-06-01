@@ -17,7 +17,7 @@ class WebhookController extends Controller {
                 'bail',
                 'required',
                 'unique:App\Webhook,url',
-                'regex:(https://discord.com/api/webhooks|https://hooks.slack.com/services)'
+                'regex:(https://discord.com/api/webhooks|https://hooks.slack.com/services|https://discordapp.com/api/webhooks)'
             ]
         ]);
 
