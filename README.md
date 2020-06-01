@@ -28,6 +28,8 @@ If you want to run this on your own here is what you will need:
 4.Edit the following entries (You need to have a database and user already!)
 
 ```
+    APP_ENV=production
+    APP_DEBUG=false
     APP_URL
     DB_HOST
     DB_DATABASE
@@ -71,3 +73,5 @@ php artisan view:cache
 
 # Contact and contribution
 If you have issues, ideas or want to contribute you can [join my discord server](https://discord.gg/VMSDGVD) to have a chat.
+The design of the database and the model relationships make it easy to integrate more RSS Feeds so if you want me to add another
+one just send me a message. 
