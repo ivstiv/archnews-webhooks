@@ -7,8 +7,8 @@
 
 body{
     font-family: 'Exo', sans-serif;
-    background: #36393F;  
-    background: -webkit-linear-gradient(left, #464a53, #36393F); 
+    background: #36393F;
+    background: -webkit-linear-gradient(left, #464a53, #36393F);
 }
 
 .top-part {
@@ -43,7 +43,7 @@ input {
 
 input:focus {
     outline:0;
-    
+
 }
 
 input[type=text]:focus {
@@ -128,14 +128,36 @@ a {
     }
   }
 
+/* How to pages */
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+}
+
+.steps li {
+    margin-top: 5%;
+}
+
+
+.steps img {
+    max-width: 80%;
+    min-width: 300px;
+    height: auto;
+}
+
 /* BACKGROUND ANIMATION */
 .area{
-    
+
     position: relative;
-    background: #36393F;  
-    background: -webkit-linear-gradient(left, #464a53, #36393F); 
-    /*background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    background: #36393F;
+    background: -webkit-linear-gradient(left, #464a53, #36393F);
+    /*background: #4e54c8;
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
     */
     width: 100%;
     height:100vh;
@@ -161,7 +183,7 @@ a {
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
-    
+
 }
 
 .circles li:nth-child(1){

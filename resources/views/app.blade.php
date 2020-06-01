@@ -25,7 +25,7 @@
             <div class="bottom-part">
                 <div class="column">
                     The project fetches information from <a href="https://www.archlinux.org/feeds/news/" target="_blank">this</a> RSS feed
-                    every 24h. Upon update it will send you a notification
+                    every hour. Upon update it will send you a notification
                     with hyperlink to the article according to your webhook.</br></br>
                     Example:
                     <img src="{{ asset('img/discord_example.png') }}" alt="discord_example" class="example">
@@ -34,8 +34,8 @@
                     <h1>FAQ:</h1>
                     <ul style="list-style: circle;">
                         <li>If you want to stop receiving updates from this service, simply delete the webhook from your channel.</li>
-                        <li><a href="" target="_blank">How to create a webhook in Discord?</a></li>
-                        <li><a href="" target="_blank">How to create a webhook in Slack?</a></li>
+                        <li><a href="{{ route('discord') }}" target="_blank">How to create a webhook in Discord?</a></li>
+                        <li><a href="{{ route('slack') }}" target="_blank">How to create a webhook in Slack?</a></li>
                         <li><a href="" target="_blank"><h3>Github</h3></a></li>
                         <li>For other feeds to be integrated you can find me in <a href="https://discord.gg/VMSDGVD" target="_blank">my discord server</a> :)</li>
                     </ul>

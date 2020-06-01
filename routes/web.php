@@ -17,4 +17,14 @@ Route::get('/', function () {
     return view('app');
 });
 
-Route::post('/addWebhook', 'WebhookController@addWebhook')->name('addWebhook');;
+Route::get('/discord', function () {
+    return view('discord');
+})->name('discord');
+
+Route::get('/slack', function () {
+    return view('slack');
+})->name('slack');
+
+Route::post('/addWebhook', 'WebhookController@addWebhook')->name('addWebhook');
+
+
