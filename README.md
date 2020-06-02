@@ -67,7 +67,7 @@ php artisan config:cache
 php artisan view:cache
 ```
 
-9.Crontab configuration (`sudo crontab -e`). Just subtitute <PROJECT_DIR> accordingly.
+9.Crontab configuration (`sudo crontab -e`). Just substitute <PROJECT_DIR> accordingly.
 
 `* * * * * php <PROJECT_DIR>/artisan schedule:run >> /dev/null 2>&1`
 

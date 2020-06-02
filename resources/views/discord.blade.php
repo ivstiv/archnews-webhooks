@@ -27,7 +27,7 @@
                     <img src="{{ asset('img/discord-steps/step3.png')}}" alt="step">
                 </li>
                 <li>
-                    <h2>Step 4: Paste it here</h2>
+                    <h2>Step 4: Paste the url in the input field</h2>
                     <img src="{{ asset('img/discord-steps/step4.png')}}" alt="step">
                 </li>
             </ul>

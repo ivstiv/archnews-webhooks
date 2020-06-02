@@ -35,7 +35,7 @@
                 <img src="{{ asset('img/slack-steps/step5.png')}}" alt="step">
             </li>
             <li>
-                <h2>Step 6: Paste it here</h2>
+                <h2>Step 6: Paste the url in the input field</h2>
                 <img src="{{ asset('img/slack-steps/step6.png')}}" alt="step">
             </li>
         </ul>
