@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="da6f5255-da01-4a23-b3f1-e74dc8c69969" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/discord.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/discord.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/slack.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slack.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +161,8 @@
       <workItem from="1590939575876" duration="20459000" />
       <workItem from="1591007768763" duration="7234000" />
       <workItem from="1591021331799" duration="913000" />
-      <workItem from="1591124773676" duration="601000" />
+      <workItem from="1591124773676" duration="1269000" />
+      <workItem from="1591277107218" duration="47000" />
     </task>
     <servers />
   </component>
